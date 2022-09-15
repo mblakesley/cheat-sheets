@@ -1,0 +1,18 @@
+* {
+  font-family: arial;
+  font-size: 16px;
+  text-align: center;
+}
+
+table, th, td {
+  background-color: #f8f9fa;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0.2em 0.4em;
+}
+
+th {
+  background-color: #eaecf0;
+}
