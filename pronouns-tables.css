@@ -16,3 +16,7 @@ table, th, td {
 th {
   background-color: #eaecf0;
 }
+
+#verbs {
+  border-top: 3px solid black;
+}
