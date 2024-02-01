@@ -6,9 +6,9 @@
    2. Run `pyenv install` to install python \<version> (specified in the file `.python-version` for pyenv to read)
    3. Run `pip -V` to confirm that python \<version> is now in use. The pathname in the output should show the `.pyenv` directory.
 3. Create & activate a python virtual environment
-   1. Run `python -m venv .venv` to create a virtualenv in the dir `.venv`
-   2. Run `source .venv/bin/activate` to activate the virtual env
-   3. Run `pip -V` to confirm the virtualenv is in use. The pathname in the output should show the `.venv` directory.
+   1. Run `pyenv virtualenv myproject` to create a virtualenv named `myproject`
+   2. Run `pyenv activate myproject` to activate the virtual env
+   3. Run `pyenv virtualenvs` and confirm that the virtualenv `myproject` is listed and has a `*` in front of it.
 4. Install dependencies in the virtual env
    1. Run `pip install -r requirements.txt` to install packages in the virtual env
 
